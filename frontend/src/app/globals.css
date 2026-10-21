@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  background: #0c0d12;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.react-flow__controls {
+  overflow: hidden;
+  border: 1px solid #30313d !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+}
+
+.react-flow__controls-button {
+  background: #171923 !important;
+  border-bottom: 1px solid #30313d !important;
+  fill: #cbd5e1 !important;
+}
+
+.react-flow__controls-button:hover {
+  background: #272938 !important;
+}
+
+.react-flow__minimap {
+  overflow: hidden;
+  border: 1px solid #30313d;
+  border-radius: 10px;
+}
