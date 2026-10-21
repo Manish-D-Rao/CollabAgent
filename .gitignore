@@ -1,0 +1,24 @@
+# JavaScript dependencies and build output
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+frontend/.env.local
+backend/.env
+
+# Python virtual environments and cache
+backend/.venv/
+__pycache__/
+*.py[cod]
+
+# Editors and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+PhaseByPhaseDocumentation.md
